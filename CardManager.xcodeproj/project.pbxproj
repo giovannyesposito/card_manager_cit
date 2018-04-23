@@ -14,6 +14,7 @@
 		2C7F7976208E0AAE003E64AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7F7974208E0AAE003E64AA /* LaunchScreen.storyboard */; };
 		2C7F7981208E0AAE003E64AA /* CardManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F7980208E0AAE003E64AA /* CardManagerTests.swift */; };
 		2C7F798C208E0AAE003E64AA /* CardManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F798B208E0AAE003E64AA /* CardManagerUITests.swift */; };
+		2C81A559208E2515001B95D4 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 2C81A558208E2515001B95D4 /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2C7F7987208E0AAE003E64AA /* CardManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7F798B208E0AAE003E64AA /* CardManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManagerUITests.swift; sourceTree = "<group>"; };
 		2C7F798D208E0AAE003E64AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C81A558208E2515001B95D4 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		2C7F796A208E0AAD003E64AA /* CardManager */ = {
 			isa = PBXGroup;
 			children = (
+				2C81A558208E2515001B95D4 /* Resources */,
 				2C7F796B208E0AAE003E64AA /* AppDelegate.swift */,
 				2C7F796D208E0AAE003E64AA /* ViewController.swift */,
 				2C7F796F208E0AAE003E64AA /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C81A559208E2515001B95D4 /* Resources in Resources */,
 				2C7F7976208E0AAE003E64AA /* LaunchScreen.storyboard in Resources */,
 				2C7F7973208E0AAE003E64AA /* Assets.xcassets in Resources */,
 				2C7F7971208E0AAE003E64AA /* Main.storyboard in Resources */,
